@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "demo": "Demo",
+    "roadmap": "Roadmap",
+    "github": "GitHub",
+    "languageLabel": "Language"
+  },
+  "hero": {
+    "badge": "AI Copilot for QA Engineers",
+    "title1": "Build Better QA",
+    "title2": "With AI",
+    "subtitle": "Generate test cases, analyze requirements and discover edge cases automatically.",
+    "ctaGithub": "View GitHub",
+    "ctaTelegram": "Join Telegram",
+    "ctaDemo": "Try Demo",
+    "ctaDemoSoon": "Coming Soon",
+    "trustedBy": "Trusted by QA teams shipping faster",
+    "stat1": "Test cases generated",
+    "stat2": "Faster coverage",
+    "stat3": "Edge cases surfaced"
+  },
+  "features": {
+    "eyebrow": "Capabilities",
+    "title": "Everything your QA workflow needs",
+    "subtitle": "AI JUN plugs into the way you already work and turns requirements into airtight test coverage.",
+    "items": {
+      "testCases": {
+        "title": "Test Case Generation",
+        "description": "Turn a requirement into a complete, structured suite of test cases in seconds — positive, negative and boundary paths included."
+      },
+      "requirements": {
+        "title": "Requirement Analysis",
+        "description": "Spot ambiguity, missing acceptance criteria and contradictions before they reach development."
+      },
+      "edgeCases": {
+        "title": "Edge Case Detection",
+        "description": "Surface the rare, high-risk scenarios humans miss, ranked by likelihood and impact."
+      },
+      "automation": {
+        "title": "Automation Assistant",
+        "description": "Get ready-to-adapt automation ideas and scaffolding so your suite scales with the product."
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "How It Works",
+    "title": "From specification to coverage in four steps",
+    "subtitle": "A focused workflow that keeps you in control while AI does the heavy lifting.",
+    "steps": {
+      "step1": {
+        "title": "Upload specification",
+        "description": "Drop in a requirement, user story or PRD. AI JUN reads it the way a senior QA would."
+      },
+      "step2": {
+        "title": "AI analyzes requirements",
+        "description": "It maps acceptance criteria, flags gaps and identifies the risk areas worth testing."
+      },
+      "step3": {
+        "title": "Generate test cases",
+        "description": "Receive structured cases with steps, expected results and edge scenarios ready to run."
+      },
+      "step4": {
+        "title": "Improve QA workflow",
+        "description": "Refine, export and automate. Your coverage compounds with every iteration."
+      }
+    }
+  },
+  "demo": {
+    "eyebrow": "Product Demo",
+    "title": "See AI JUN in action",
+    "subtitle": "A live look at how requirements become coverage, risk analysis and edge cases.",
+    "windowTitle": "AI JUN — Workspace",
+    "panelRequirements": "Uploaded Requirements",
+    "requirementName": "checkout-flow.md",
+    "requirementBody": "User can pay with a saved card. Apply a discount code at checkout. Show an error for an expired card.",
+    "analyzed": "Analyzed",
+    "panelTestCases": "Generated Test Cases",
+    "testCases": {
+      "tc1": "Pay with valid saved card",
+      "tc2": "Apply valid discount code",
+      "tc3": "Reject expired card with error",
+      "tc4": "Discount exceeds order total"
+    },
+    "statusPass": "Pass",
+    "statusEdge": "Edge",
+    "panelRisk": "Risk Analysis",
+    "riskHigh": "High",
+    "riskMedium": "Medium",
+    "riskLow": "Low",
+    "riskItem1": "Payment gateway timeout handling",
+    "riskItem2": "Concurrent discount + gift card",
+    "riskItem3": "Currency rounding on totals",
+    "panelEdge": "Edge Cases",
+    "edge1": "Discount code applied after card decline",
+    "edge2": "Card expires during checkout session",
+    "edge3": "Zero-total order after full discount",
+    "coverage": "Coverage",
+    "casesLabel": "test cases",
+    "risksLabel": "risks flagged"
+  },
+  "roadmap": {
+    "eyebrow": "Roadmap",
+    "title": "Where AI JUN is headed",
+    "subtitle": "Shipping in the open. Here's what's live and what's coming next.",
+    "currentLabel": "Shipped",
+    "upcomingLabel": "Upcoming",
+    "current": {
+      "item1": "MVP",
+      "item2": "Requirement Analysis",
+      "item3": "Test Case Generation"
+    },
+    "upcoming": {
+      "item1": "Desktop App",
+      "item2": "Telegram Bot",
+      "item3": "Jira Integration",
+      "item4": "AI QA Copilot"
+    }
+  },
+  "social": {
+    "eyebrow": "Join the community",
+    "title": "Build the future of QA with us",
+    "subtitle": "Star the repo, join the chat, and follow along as AI JUN grows.",
+    "github": "GitHub",
+    "githubDesc": "Star the open-source repo",
+    "telegram": "Telegram",
+    "telegramDesc": "Join the community chat",
+    "linkedin": "LinkedIn",
+    "linkedinDesc": "Follow company updates"
+  },
+  "footer": {
+    "tagline": "AI Copilot for QA Engineers",
+    "rights": "All rights reserved.",
+    "product": "Product",
+    "community": "Community",
+    "builtWith": "Built for QA teams who ship with confidence."
+  },
+  "common": {
+    "comingSoon": "Coming Soon"
+  }
+}
