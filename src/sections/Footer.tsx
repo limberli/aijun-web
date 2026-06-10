@@ -3,6 +3,9 @@ import { Logo } from '../components/Logo'
 import { GithubIcon, LinkedInIcon, TelegramIcon } from '../components/BrandIcons'
 
 const GITHUB_URL = 'https://github.com/limberli/aijun'
+const TELEGRAM_URL = 'https://t.me/ai_jun'
+const LINKEDIN_URL = 'https://www.linkedin.com/in/limberli'
+
 
 const PRODUCT_LINKS = [
   { id: 'features', key: 'nav.features' },
@@ -13,8 +16,8 @@ const PRODUCT_LINKS = [
 
 const SOCIAL_LINKS = [
   { href: GITHUB_URL, label: 'GitHub', icon: <GithubIcon className="h-4 w-4" />, external: true },
-  { href: '#', label: 'Telegram', icon: <TelegramIcon className="h-4 w-4" />, external: false },
-  { href: '#', label: 'LinkedIn', icon: <LinkedInIcon className="h-4 w-4" />, external: false },
+  { href: TELEGRAM_URL, label: 'Telegram', icon: <TelegramIcon className="h-4 w-4" />, external: true },
+  { href: LINKEDIN_URL, label: 'LinkedIn', icon: <LinkedInIcon className="h-4 w-4" />, external: true },
 ] as const
 
 export function Footer() {

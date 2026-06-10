@@ -22,13 +22,13 @@ const SOCIALS: Social[] = [
   },
   {
     id: 'telegram',
-    href: '#',
+    href: 'https://t.me/ai_jun',
     icon: <TelegramIcon className="h-6 w-6" />,
     accent: 'group-hover:text-[#27A7E7]',
   },
   {
     id: 'linkedin',
-    href: '#',
+    href: 'https://www.linkedin.com/in/limberli',
     icon: <LinkedInIcon className="h-6 w-6" />,
     accent: 'group-hover:text-[#0A66C2]',
   },

@@ -7,7 +7,8 @@ import { GithubIcon, TelegramIcon } from '../components/BrandIcons'
 import { fadeUp, staggerContainer, easeExpo } from '../lib/motion'
 
 const GITHUB_URL = 'https://github.com/limberli/aijun'
-const TELEGRAM_URL = '#'
+const TELEGRAM_URL = 'https://t.me/ai_jun'
+const DEMO_URL = 'https://github.com/limberli/aijun/releases/tag/v0.1-beta'
 
 const STAT_KEYS = [
   { value: '12k+', key: 'hero.stat1' },
@@ -59,13 +60,14 @@ export function Hero() {
             <Button href={TELEGRAM_URL} external variant="secondary" size="lg" icon={<TelegramIcon />}>
               {t('hero.ctaTelegram')}
             </Button>
-            <Button variant="ghost" size="lg" disabled iconRight={<ArrowRight />}>
-              <span className="flex items-center gap-2">
-                {t('hero.ctaDemo')}
-                <span className="rounded-full border border-white/15 bg-white/[0.06] px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wide text-slate-400">
-                  {t('hero.ctaDemoSoon')}
-                </span>
-              </span>
+            <Button
+              href={DEMO_URL}
+              external
+              variant="ghost"
+              size="lg"
+              iconRight={<ArrowRight />}
+            >
+              {t('hero.ctaDemo')}
             </Button>
           </motion.div>
 

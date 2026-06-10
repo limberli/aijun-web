@@ -45,7 +45,7 @@ export function Navbar() {
         transition={{ duration: 0.6, ease: easeExpo }}
         className={`mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-5 transition-all duration-300 sm:px-8 ${
           scrolled
-            ? 'mt-2 rounded-2xl border border-white/10 bg-ink/70 backdrop-blur-xl sm:mx-4'
+            ? 'mt-2 rounded-2xl border border-white/10 bg-ink/70 backdrop-blur-xl sm:w-[calc(100%-2rem)]'
             : 'border border-transparent bg-transparent'
         }`}
       >
