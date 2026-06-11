@@ -8,7 +8,7 @@ import { fadeUp, staggerContainer, easeExpo } from '../lib/motion'
 
 const GITHUB_URL = 'https://github.com/limberli/aijun'
 const TELEGRAM_URL = 'https://t.me/ai_jun'
-const DEMO_URL = 'https://github.com/limberli/aijun/releases/tag/v0.1-beta'
+const DEMO_URL = 'https://github.com/limberli/aijun/tags'
 
 const STAT_KEYS = [
   { value: '12k+', key: 'hero.stat1' },
